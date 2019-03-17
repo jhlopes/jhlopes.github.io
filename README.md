@@ -18,12 +18,23 @@ body {
   <div align = "center">
 
   <a href="https://github.com/jhlopes"> 
-  <font size="+2">  GitHub  
+  <font size="+2" color= "white">  GitHub  
 
   <br>
   <br>
+  <div align = "center" >
+    <a href="https://www.linkedin.com/in/joão-henrique-lopes/"> 
+    <font size="+2" color= "white" > LinkedIn 
+  
+  <style>
+    div {
+      margin: auto;
+      width: 100px;
+      height: 33px;
+      background: linear-gradient(to top, #000000 0%, #666699 99%);
+    }
 
-  <a href="https://www.linkedin.com/in/joão-henrique-lopes/"> 
-  <font size="+2">  LinkedIn 
+  </style>
+  </div>
 
 
