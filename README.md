@@ -3,6 +3,7 @@
 <head>
 <style> 
 body {
+  height: 1920px;
   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 
