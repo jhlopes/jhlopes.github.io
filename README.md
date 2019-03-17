@@ -1,23 +1,12 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-<style> 
-body {
-  height: 1920px;
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-}
-
 <title>João Henrique Lopes</title>
 </head>
 
-</style>
 
-<style>
-
-  <h1 align = "center" >João Henrique Lopes</h1>
-  <h3 align = "center" >Ciência da Computação</h3>
-
-</style>
+<h1 align = "center" >João Henrique Lopes</h1>
+<h3 align = "center" >Ciência da Computação</h3>
 
   <div align = "center">
 
@@ -28,18 +17,25 @@ body {
   <br>
   <div>
     <a href="https://www.linkedin.com/in/joão-henrique-lopes/"> 
-    <font size="+2" color= "white" > LinkedIn 
+    <font size="+2" color= "red" > LinkedIn 
+  
   
   <style>
-  
+    
+    body {
+      height: 1920px;
+      background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    }
+
     div {
-      margin: auto;
+      
       width: 100px;
       height: 33px;
       background: linear-gradient(to top, #000000 0%, #666699 99%);
     }
 
   </style>
-  
+  </div>
+
 
 
