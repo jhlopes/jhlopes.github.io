@@ -5,15 +5,11 @@
 </head>
 
 <body>
-
-<a> https://github.com/jhlopes 
+<br>
+<a href="https://github.com/jhlopes "> GitHub </a> 
 
 <br>
-<br>
 
 
-<a> https://www.linkedin.com/in/joão-henrique-lopes/ 
 
-</body>
-
-</html>
+<a href="https://www.linkedin.com/in/joão-henrique-lopes/ ">LinkedIn</a> 
