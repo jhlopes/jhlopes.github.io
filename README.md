@@ -1,32 +1,42 @@
 
+
+
 <html>
 <head>
 
 </head>
 
-<body style="background-color:#a5c8ff">
+<body style="background: linear-gradient(to bottom, #66ffff 0%, #99ccff 100%)">
 
 
 <div class="container">
     		<div class="blurb">
-        		<h1>João Henrique Lopes</h1>
+        		<h1 align = "center" >João Henrique Lopes</h1>
 				
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+    	
 
 
-  <h3>Ciência da Computação</h3>
+  <h3 align = "center" >Ciência da Computação</h3>
   
 
 
 <br>
-<button> <a href="https://github.com/jhlopes "> GitHub </a> </button>
+
+<div align = "center">
+
+ <a href="https://github.com/jhlopes"> 
+  <font size="+2">  GitHub  </a > </button>
+
 
 <br>
 <br>
 
 
 
-<button> <a href="https://www.linkedin.com/in/joão-henrique-lopes/ ">LinkedIn</a> </button>
+ <a href="https://www.linkedin.com/in/joão-henrique-lopes/"> 
+  <font size="+2">  LinkedIn </a> </button>
 
+</div>
+
+</body>
 
