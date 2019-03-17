@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+
 
 <body style="background: linear-gradient(to bottom, #66ffff 0%, #99ccff 100%)">
 
@@ -21,6 +21,4 @@
   <a href="https://www.linkedin.com/in/joão-henrique-lopes/"> 
   <font size="+2">  LinkedIn 
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
+  
