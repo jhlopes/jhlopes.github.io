@@ -26,4 +26,4 @@ body {
   <a href="https://www.linkedin.com/in/joão-henrique-lopes/"> 
   <font size="+2">  LinkedIn 
 
-</html>
+
