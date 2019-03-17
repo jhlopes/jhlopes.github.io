@@ -1,5 +1,4 @@
 
-
 <html>
 <head>
 <title>Title of the document</title>
@@ -7,13 +6,13 @@
 
 <body>
 
-<button> <a> https://github.com/jhlopes </button>
+<a> https://github.com/jhlopes 
 
 <br>
 <br>
 
 
-<button> <a> https://www.linkedin.com/in/joão-henrique-lopes/ </button>
+<a> https://www.linkedin.com/in/joão-henrique-lopes/ 
 
 </body>
 
