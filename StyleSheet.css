@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
   font-family: "Helvetica";
   margin: auto;
@@ -46,4 +47,50 @@ div {
 
  
 
+=======
+h1 {
+  font-family: "Helvetica";
+  margin: auto;
+  width: 400px;
+}
+
+h3 {
+  font-family: "Helvetica";
+  margin: auto;
+  width: 400px;
+}
+
+
+body {
+  height: 850px;
+  background: linear-gradient(to bottom, #e8ebee 30%, #0e0d0d 200%);
+}
+
+div {
+  font-family: "Helvetica";
+  margin: auto;
+  width: 100px;
+  height: 33px;
+  background: linear-gradient(to top, #0a0909 0%, #0d0d0e 99%);
+  border-radius: 3px;
+  border: 1px solid rgb(138, 138, 139);
+}
+
+.middlebox{
+  
+  height: 800px;
+  width: 800px;  
+  background: linear-gradient(to top, #3f3e3e 0%, #2d2d2e 99%);
+  border-radius: 0px;
+  border: 4 px solid rgb(128, 0, 0);
+
+
+}
+
+.mendigo{
+  
+  margin-left: 150px;
+ 
+
+>>>>>>> 8742f7c640a6b6897551c29730c1aef42d65a518
 }
