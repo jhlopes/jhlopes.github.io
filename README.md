@@ -12,8 +12,12 @@ body {
 
 </style>
 
+<style>
+
   <h1 align = "center" >João Henrique Lopes</h1>
   <h3 align = "center" >Ciência da Computação</h3>
+
+</style>
 
   <div align = "center">
 
@@ -22,11 +26,12 @@ body {
 
   <br>
   <br>
-  <div align = "center" >
+  <div>
     <a href="https://www.linkedin.com/in/joão-henrique-lopes/"> 
     <font size="+2" color= "white" > LinkedIn 
   
   <style>
+  
     div {
       margin: auto;
       width: 100px;
@@ -35,6 +40,6 @@ body {
     }
 
   </style>
-  </div>
+  
 
 
