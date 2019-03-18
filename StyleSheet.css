@@ -22,36 +22,71 @@ body {
   font-family: "Consolas";
   float: left;
   width: 180px;
-  padding-top: 36px;
-  padding-bottom: 38px;
+  padding-top: 10px;
   text-decoration:none ;
+  height:40px;
+  transition: all .2s ease-in-out;
 }
 
 .linkLI:hover{
   
   background: rgba(255, 255, 255, 0.096);
   background-blend-mode: multiply;
+  height: 90px;
+  transform: (1);
 
 }
 
-.linkGH{
+.githubIcon{
+  margin-top: -50px;
+  opacity: 0;
+  padding-left: 65px;
+  padding-right: 70px;
+  padding-top: 53px;
+  padding-bottom: 9px;
+  transition: all .1s ease-in-out;
+  width: 10px;
+  height: 10px;
+  
+  
+
+  
+}
+
+.githubIcon:hover{
+  
+  opacity: 1; 
+  width: 50px;
+  height: 50px;
+  
+  
+}
+
+.linkGH{ 
   
   margin-left: 5%;
   font-family: "Consolas";
+  text-align: center; 
   float: left;
   width: 180px;
-  padding-top: 36px;
-  padding-bottom: 38px;
+  padding-top: 10px;
   text-decoration:none ;
+  height:40px;
+  transition: all .2s ease-in-out;
+  
 
 }
 
-.linkGH:hover{
+.linkGH:hover {
 
   background: rgba(255, 255, 255, 0.096);
   background-blend-mode: multiply;
-
+  height: 90px;
+  transform: (1);
+  
 }
+
+
 
 .spacer{
 
@@ -111,5 +146,17 @@ div {
 
 }
 
+/* .githubIcon{
+  
+  opacity: 0; 
+  
+  transition: all .2s ease-in-out;
+  
+}
 
+.githubIcon:hover{
 
+  opacity: 1;
+  transform: (1);
+
+} */
