@@ -1,35 +1,89 @@
 h1 {
-  font-family: "Geometr415 Blk BT Black";
+  font-family: "Consolas";
   margin: auto;
   width: 400px;
 }
 
 h3 {
-  font-family: "Futura Md BT";
+  font-family: "Consolas";
   margin: auto;
   width: 400px;
 }
 
 
 body {
-  height: 850px;
+  height: 2050px;
   background: linear-gradient(to bottom, #e8ebee 30%, #0e0d0d 200%);
 }
 
-div {
-  font-family: "Bitterbrush DEMO Regular";
-  margin: auto;
+.linkLI {
+  
+  margin-left: 5%;
+  font-family: "Consolas";
+  float: left;
+  width: 180px;
+  padding-top: 36px;
+  padding-bottom: 38px;
+  text-decoration:none ;
+}
+
+.linkLI:hover{
+  
+  background: rgba(255, 255, 255, 0.096);
+  background-blend-mode: multiply;
+
+}
+
+.linkGH{
+  
+  margin-left: 5%;
+  font-family: "Consolas";
+  float: left;
+  width: 180px;
+  padding-top: 36px;
+  padding-bottom: 38px;
+  text-decoration:none ;
+
+}
+
+.linkGH:hover{
+
+  background: rgba(255, 255, 255, 0.096);
+  background-blend-mode: multiply;
+
+}
+
+.spacer{
+
+  
+  height: 100px;
   width: 100px;
-  height: 29px;
-  background: linear-gradient(to top, #0a0909 0%, #0d0d0e 99%);
-  border-radius: 3px;
-  border: 1px solid rgb(138, 138, 139);
+  float: left;
+
+}
+
+div {
+  
+  margin: auto;
   
 }
 
-.middlebox{
+.topbar {
+  position: fixed;
+  top: 0px;
+  margin-left: -10px;
+  width: 100%;
+  background: linear-gradient(75deg, #01b481, #02d89b);
+  z-index: 1;
+  background-blend-mode: lighten;
+  height:100px;
   
-  height: 800px;
+}
+
+
+.middlebox{
+  margin-top: 150px;
+  height: 500px;
   width: 800px;  
   background: linear-gradient(to top, #3f3e3e 0%, #2d2d2e 99%);
   border-radius: 0px;
@@ -44,3 +98,6 @@ div {
  
 
 }
+
+
+
