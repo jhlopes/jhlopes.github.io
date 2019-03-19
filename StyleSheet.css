@@ -1,15 +1,6 @@
 
 
 
-.nomeP {
-  font-family: "Consolas";
-  font-size: 50px;
-  
-  text-shadow: -2px 2px 0px #00000034;
-  margin-left: 30px;
-  padding-top: 20px;
-}
-
 h3 {
   font-family: "Consolas";
   margin: auto;
@@ -18,8 +9,10 @@ h3 {
 
 
 body {
-  height: 2050px;
+  height: 4050px;
   background: rgb(241, 240, 233);
+  overflow-x: hidden;
+  
 }
 
 .linkedinIcon{
@@ -121,22 +114,24 @@ body {
 
 }
 
-div {
+/* div {
   
   margin: auto;
   
-}
+} */
 
 .topbar {
   position: fixed;
   top: 0px;
   margin-left: -10px;
+  
   width: 100%;
   background: linear-gradient(45deg, rgb(68, 196, 68) , #b9e284);
   z-index: 1;
   background-blend-mode: lighten;
   height:50px;
   transition: all .2s ease-in-out;
+  padding-right: 10px;
   
 }
 
@@ -148,13 +143,30 @@ div {
 
 
 .middlebox{
-  margin-top: 80px;
+  
+  width: 101%;
+  margin-top: 120px;
   height: 500px;
-  width: 100%;  
+  transform: rotate(5deg);
+  
+  float: middle;
+
+  margin-left: -5%;
+  padding-right: 10%;
   background: linear-gradient(to top right, #2AFADF 0%, #4cb7ff 100%);
-  float:middle;
-  margin-right: 20px;
+  
 }
+
+
+.nomeP {
+  font-family: "Consolas";
+  font-size: 50px;
+  transform: rotate(-5deg);
+  text-shadow: -2px 2px 0px #00000034;
+  margin-left: 5%;
+  padding-top: 20px;
+}
+
 
 .mailIcon{
   margin-top: -50px;
@@ -187,11 +199,17 @@ div {
 
 .contactInfo{
 
+  width: 101%;
+  margin-top: 120px;
   height: 500px;
-  width: 100%;  
-  background: linear-gradient(to bottom left, #2AFADF 0%, #4cb7ff 100%);
-  float:middle;
-  margin-right: 20px;
+  transform: rotate(-5deg);
+  
+  float: middle;
+
+  margin-left: -5%;
+  padding-right: 10%;
+  background-image: linear-gradient(to bottom left, #96fbc4 0%, #f9f586 100%);
+  
   
 }
 
@@ -200,11 +218,23 @@ div {
   font-family: "Consolas";
   font-size: 50px;
   color: white;
-  text-shadow: -2px 2px 0px #00000034;
-  margin-left: 30px;
+  float:right;
+  text-shadow: -2px 2px 0px #0000004d;
+  margin-right: -40px;
   padding-top: 20px;
+  transform: rotate(5deg);
 }
 
+.sidecut{
+
+  
+  width: 20px;
+  height: 800px;
+  float: right;
+  background: red;
+  z-index: 2;
+
+}
 
 
 /* .githubIcon{
