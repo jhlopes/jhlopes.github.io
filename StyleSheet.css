@@ -60,10 +60,11 @@ body {
 .githubIcon{
   margin-top: -50px;
   opacity: 0;
+  
   padding-left: 65px;
   padding-right: 70px;
-  padding-top: 53px;
-  padding-bottom: 9px;
+  padding-top: 11%;
+  padding-bottom: 11%;
   transition: all .1s ease-in-out;
   width: 10px;
   height: 10px;
@@ -130,7 +131,7 @@ body {
   background: linear-gradient(45deg, rgb(68, 196, 68) , #b9e284);
   z-index: 1;
   background-blend-mode: lighten;
-  height:50px;
+  height: 6%;
   transition: all .2s ease-in-out;
   padding-right: 10px;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.055);
@@ -139,8 +140,8 @@ body {
 
 .topbar:hover{
 
-  height: 100px;
-  transform: (1);
+  height: 12%;
+  
 }
 
 
@@ -269,7 +270,13 @@ body {
   transform: rotate(5deg);
 }
 
+.donkey{
 
+  transform: rotate(-5deg);
+  margin-left: 20%;
+  margin-top: -9%;
+
+}
 
 /* .githubIcon{
   
