@@ -94,9 +94,10 @@ body {
   min-width: 30px;
   min-height: 30px;
   height: 50% ;
-  width: 22%;
+  width: auto;
   opacity: 1;
   
+
 }
 
 .linkTEXT{
@@ -117,94 +118,17 @@ body {
   margin-left:auto;
   margin-right:auto;
   margin-top: -21px;
-  transition: width .1s, height .1s ;
+  transition: width .1s, height .1s;
   transition-timing-function: ease-in-out;
-
-
-  /*padding: 20% 47.5% 20% 47%;*/
-
-}
-
-
-/*
-.fotoGH:hover{
-
-  display: block;
-  width: 100px;
-  height: 100px;
-  margin-left:auto;
-  margin-right:auto;
-
-}
-
-
-
-
- .githubIcon{
-  
-  opacity: 1;
-  background: rgba(55, 0, 255, 0.308);
-  margin-top: -13%;
-  transition: all .1s ease-in-out;
-  width: 100%;
-  height: 100%;
-  
-  float:middle;
-  
-  
-  
-  
-}
-
-.githubIcon:hover{
-  opacity: 1;
-  margin-top: -20%;
-  padding-top: 19%;
-  padding-bottom: 2%;
-  width: 100%;
-  height: 60%;
   
 
 }
-
-.GHICON {
-
-  
-  height: 50%;
-  width: 50%;
-  
-  
-}
-
-.GHICON:hover {
-
-
-  
-
-}
-
-.githubText{
-
-  color: white;
-  font-size: 180%;
-  vertical-align: middle;
-  
-  text-align: center;
-  float: middle;
-
-}
-
-*/
-
-
-
-
 
 .spacer{
 
   
   height: 100%;
-  width: 10%;
+  width: 6%;
   float: left;
 
 }
@@ -339,7 +263,7 @@ body {
 .projetos{
   
   width: 101%;
-  margin-top: 400px;
+  margin-top: 10%;
   height: 700px;
   transform: rotate(-5deg);
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.055);
@@ -362,27 +286,4 @@ body {
   padding-top: 20px;
   transform: rotate(5deg);
 }
-
-.donkey{
-
-  transform: rotate(-5deg);
-  margin-left: 20%;
-  margin-top: -9%;
-
-}
-
-/* .githubIcon{
-  
-  opacity: 0; 
-  
-  transition: all .2s ease-in-out;
-  
-}
-
-.githubIcon:hover{
-
-  opacity: 1;
-  transform: (1);
-
-} */
 
