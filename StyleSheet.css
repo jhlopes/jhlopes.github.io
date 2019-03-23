@@ -297,7 +297,7 @@ body {
   
   width: 101%;
   margin-top: 10%;
-  height: 700px;
+  height: 800px;
   transform: rotate(-5deg);
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.055);
   
@@ -322,12 +322,13 @@ body {
 
 
 .slider_wrapper {
-  height: 500px;
+  height: 700px;
   overflow: hidden;
-  margin-left: 30%;
-  
-  width: 500px;
+  margin-left: 10%;
+  margin-top: -10%;
+  width: 80%;
   transform: rotate(5deg);
+  z-index: -1;
 
 }
 
@@ -335,7 +336,7 @@ body {
   animation: slide 5s linear infinite;
   position: absolute;
   left: 0;
-  width: 1000px;
+  width: 260%;
 }
 
 
@@ -346,38 +347,61 @@ body {
   
   50% {transform:none;}
   
-  60% {transform: translateX(-500px);}
+  60% {transform: translateX(-40%);}
   
-  80% {transform: translateX(-500px);}
+  80% {transform: translateX(-40%);}
   
-  100%{transform: translateX(-500px);}
+  100%{transform: translateX(-40%);}
   
 
 }
 
 .eggs{
 
-  width: 500px;
+  width: 40%;
   height: auto;
-
+  
 }
 
 .vitch{
 
-  width: 500px;
+  width: 40%;
   height: auto;
+  
 
+  
 }
 
 .spacerSlide{
 
-  opacity: 0;
+  
+  opacity: 1;
   display: block;
-  color: red;
-  background: red;
-  width: 600px;
-  height: 100px;
+  
+  width: 55%;
+  height: 20px;
   float: middle;
   margin-left: 20%;
+  z-index: 2;
+  
+  
+}
+
+.sliderBox{
+
+  opacity: 1;
+  display: block;
+  margin-top: 20px;
+  
+  width: 60%;
+  height: 750px;
+  float: middle;
+  margin-left: 20%;
+  z-index: 2;
+  transform: rotate(0deg);
+  overflow: hidden;
+  
+
+
 
 }
