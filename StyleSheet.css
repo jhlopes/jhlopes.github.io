@@ -293,11 +293,12 @@ body {
   transform: rotate(-5deg);
 }
 
-.projetos{
+.projetosBox{
   
+  opacity: 1;
   width: 101%;
   margin-top: 10%;
-  height: 800px;
+  height: 600px;
   transform: rotate(-5deg);
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.055);
   
@@ -306,7 +307,11 @@ body {
   padding-right: 10%;
   background: linear-gradient(to bottom right, #00A8C5 0%, rgb(242, 255, 126) 120%);
   
+  z-index: 3;
+
 }
+
+
 
 .projetosH{
 
@@ -314,94 +319,126 @@ body {
   font-size: 50px;
   color: white;
   float:right;
+  background: rgba(255, 255, 0, 0);
   text-shadow: -2px 2px 0px #0000004d;
-  margin-right: -20px;
-  padding-top: 20px;
-  transform: rotate(5deg);
+  
+  margin-top: 10px;
+  padding-left: 100%;
+  z-index: 2;
+  
+  float:right;
+  text-align: right;
 }
 
-
-.slider_wrapper {
-  height: 700px;
-  overflow: hidden;
-  margin-left: 10%;
-  margin-top: -10%;
-  width: 80%;
-  transform: rotate(5deg);
-  z-index: -1;
-
-}
-
-.images_wrapper {
-  animation: slide 5s linear infinite;
-  position: absolute;
-  left: 0;
-  width: 260%;
-}
-
-
-
-@keyframes slide {
-  0%  {transform:none;}
-  20% {transform:none;}
-  
-  50% {transform:none;}
-  
-  60% {transform: translateX(-40%);}
-  
-  80% {transform: translateX(-40%);}
-  
-  100%{transform: translateX(-40%);}
-  
-
-}
-
-.eggs{
-
-  width: 40%;
-  height: auto;
-  
-}
-
-.vitch{
-
-  width: 40%;
-  height: auto;
-  
-
-  
-}
 
 .spacerSlide{
 
   
   opacity: 1;
   display: block;
-  
-  width: 55%;
-  height: 20px;
-  float: middle;
+  background: rgba(255, 0, 0, 0);
+  width: 70%;
+  height: 80%;
   margin-left: 20%;
-  z-index: 2;
+  margin-bottom: -20%;
+  margin-top: 15%;
+  transform: rotate(5deg);
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
   
   
 }
 
-.sliderBox{
+.projectView{
 
-  opacity: 1;
-  display: block;
-  margin-top: 20px;
   
-  width: 60%;
-  height: 750px;
-  float: middle;
-  margin-left: 20%;
-  z-index: 2;
-  transform: rotate(0deg);
+  background: rgba(255, 166, 0, 0);
+  
+  
+  height: 60%;
+  width: 33%;
+  margin-left:10%;
+  margin-top: -30px;
+  float: left;
+ 
+
+}
+
+.projectCutter{
+  
+  
+  background: rgba(0, 128, 0, 0);
+  width: 100%;
+  height: 120%;
   overflow: hidden;
+  margin-top: 20%;
   
 
+}
+
+.vitch{
+
+  width: 100%;
+  height: auto;
+  transform: rotate(5deg);
+  float: left;
+
+  
+}
+
+.vitch:hover{
+
+  box-shadow: 0px 0px 8px 5px #fffefe4f;
+
+}
+
+.eggs{
+
+  width: 100%;
+  height: 119%;
+  transform: rotate(5deg);
+  float: left;
+
+  
+}
+.projectView2{
+
+  
+  background: rgba(0, 195, 255, 0);
+  
+  
+  height: 60%;
+  width: 33%;
+  margin-left: 5%;
+  margin-top: -30px;
+  float: left;
+}
+
+.bigProjeto{
+
+  width: 101%;
+  height: 900px;
+  background: yellow;
+  
+
+}
 
 
+.spacerspacerSlide{
+
+  
+  opacity: 0;
+  display: block;
+  background: rgba(255, 0, 0, 0);
+  width: 55%;
+  height: 5%;
+  margin-left: 20%;
+  margin-bottom: -20%;
+  
+  z-index: 2;
+  
+  
+  
+  
 }
